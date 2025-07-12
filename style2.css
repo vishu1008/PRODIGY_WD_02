@@ -1,0 +1,29 @@
+/* style.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1aef0f;
+  margin: 0;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background-color: #d2bebe;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(198, 125, 125, 0.1);
+}
+
+#display {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
